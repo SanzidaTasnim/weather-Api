@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url(bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="input" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-danger" id="btn">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center" id="weather-info">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1>Dhaka</h1>
+            <h3><span>38.06</span>&deg;C</h3>
+            <h5>Feels Like <span>41.99</span>&deg;</h5>
+            <h1 class="lead fs-5">Clouds</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
